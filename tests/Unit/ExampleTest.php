@@ -13,7 +13,7 @@ class ExampleTest extends TestCase
      */
     public function testThatTrueIsTrue(): void
     {
-        /** @phpstan-ignore-next-line  */
+        // @phpstan-ignore-next-line
         $this->assertTrue(true);
     }
 }
