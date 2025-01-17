@@ -24,6 +24,9 @@ use Carbon\CarbonImmutable;
  */
 class BookStock extends Model
 {
+    /**
+     * @use HasFactory<\Database\Factories\BookStockFactory>
+     */
     use HasFactory;
 
     public const null|string UPDATED_AT = null;
