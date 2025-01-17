@@ -32,7 +32,7 @@ class BookController
     }
 
     /**
-     * @return \Illuminate\Database\Eloquent\Collection<int, Book>
+     * @return Collection<int, Book>
      */
     public function index(): Collection
     {

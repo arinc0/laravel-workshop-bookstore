@@ -16,7 +16,6 @@ use Illuminate\Validation\ValidationException;
 class BookStockController
 {
     /**
-     * @param \App\Models\Book $book
      * @return array{book_id: int, quantity: int}
      */
     public function count(Book $book): array
